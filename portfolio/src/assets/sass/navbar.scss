@@ -1,0 +1,41 @@
+.nav {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+
+  .burger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    @include flexEvenly;
+    flex-direction: column;
+
+    &__line {
+      width: 100%;
+      height: 4px;
+      background-color: $accent-color;
+    }
+  }
+
+  ul {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    background-color: inherit;
+    @include flexEvenly;
+    flex-direction: column;
+    height: 0;
+    visibility: hidden;
+
+    li {
+      text-align: center;
+    }
+  }
+
+  ul.active {
+    height: 25vh;
+  }
+}

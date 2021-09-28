@@ -1,0 +1,44 @@
+.section {
+  padding: 20px;
+  h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  &-line {
+    width: 100px;
+    height: 3px;
+    background-color: $accent-color;
+    margin-inline: auto;
+    margin-bottom: 50px;
+  }
+
+  &__container {
+    width: 90%;
+    margin-inline: auto;
+
+    h3 {
+      margin-bottom: 30px;
+    }
+
+    &__img {
+      width: 120px;
+      height: 120px;
+      background: grey;
+      border-radius: 50%;
+      margin: 30px auto 50px auto;
+    }
+
+    &__desc {
+      p {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    }
+
+    &__skills {
+      margin: 20px 0;
+    }
+  }
+}
