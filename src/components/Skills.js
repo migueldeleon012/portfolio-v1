@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <section className="section">
+    <section id="skills" className="section">
       <h2>Skills</h2>
       <div className="section-line"></div>
       <div className="section__container">
@@ -19,7 +19,7 @@ const Skills = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

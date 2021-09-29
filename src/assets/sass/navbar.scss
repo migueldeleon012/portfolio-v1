@@ -27,8 +27,8 @@
     background-color: inherit;
     @include flexEvenly;
     flex-direction: column;
-    height: 0;
-    visibility: hidden;
+    height: 25vh;
+    // visibility: hidden;
 
     li {
       text-align: center;

@@ -1,10 +1,10 @@
 const Projects = () => {
   return (
-    <section className="section">
+    <section id="projects" className="section">
       <h2>Projects</h2>
       <div className="section-line"></div>
       <div className="section__container">
-      {/* {projectCollections.map( project =>{
+        {/* {projectCollections.map( project =>{
           <div className="card">
             <div className="card__img">
               <img src="" alt="" />
@@ -21,7 +21,7 @@ const Projects = () => {
       })} */}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

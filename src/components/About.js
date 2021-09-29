@@ -1,6 +1,6 @@
-const Aboout = () => {
+const About = () => {
   return (
-    <section className="section">
+    <section id="about" className="section">
       <h2>About Me</h2>
       <div className="section-line"></div>
 
@@ -28,4 +28,4 @@ const Aboout = () => {
   );
 };
 
-export default Aboout;
+export default About;

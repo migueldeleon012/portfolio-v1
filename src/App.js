@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import About from './components/Aboout';
+import About from './components/About';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
 import Projects from './components/Projects';

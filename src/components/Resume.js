@@ -1,10 +1,10 @@
 const Resume = () => {
   return (
-    <section className="resume">
+    <section id="resume" className="resume">
       <h2>Resume</h2>
       <div className="section-line"></div>
       <div className="resume__container">
-        <a className="btn" target="_blank">
+        <a className="btn" href="#contacts">
           View my Resume
         </a>
       </div>
