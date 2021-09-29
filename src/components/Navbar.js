@@ -1,12 +1,20 @@
+import { useState } from 'react';
+
 const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
+
+  const onBurgerClickHandler = () => {
+    setIsActive(!isActive);
+  };
+
   return (
     <nav className="nav bg-black">
-      <div className="burger">
+      <div className="burger" onClick={onBurgerClickHandler}>
         <div className="burger__line"></div>
         <div className="burger__line"></div>
         <div className="burger__line"></div>
       </div>
-      <ul>
+      <ul className={isActive ? 'active' : ''}>
         <li>
           <a className="text-white" href="#about">
             About Me

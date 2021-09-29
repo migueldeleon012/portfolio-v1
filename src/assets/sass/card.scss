@@ -1,0 +1,30 @@
+.card {
+  width: 100%;
+  border: 1px solid lighten($font-color, 80%);
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 20px 10px;
+  min-height: 52vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__img img {
+    width: 100%;
+  }
+
+  &__links {
+    @include flexEvenly;
+    margin-top: 20px;
+
+    a {
+      color: $font-color;
+    }
+  }
+
+  &__btn {
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid $font-color;
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "img":"./img/polaworld.jpg",
+    "name": "Polaworld",
+    "description": "Polaworld is a website for a photography company based in Italy. It was created to showcase my skills UI/UX design, and I used HTML, CSS, and Vanilla JS",
+    "github": "https://github.com/migueldeleon012/polaworld",
+    "site": "https://polaworld.netlify.app/"
+  },
+  {
+    "img":"./img/tictactoe.jpg",
+    "name": "Neon Tac Toe",
+    "description": "Neon Tac Toe is a simple tic tac toe game where I used HTML, CSS, and Vanilla JS to make it. This project focuses not only on Vanilla JS, but also my skills in CSS",
+    "github": "https://github.com/migueldeleon012/tic-tac-toe",
+    "site": "https://migueldeleon-tic-tac-toe.netlify.app/"
+  },
+  {
+    "img":"./img/pokedex.jpg",
+    "name": "Pokedex",
+    "description": "The pokedex is a project that I created to test my abilities in dealing with external APIs, I used PokeAPI, React JS, and Sass for this project",
+    "github": "https://github.com/migueldeleon012/pokedex",
+    "site": "https://miguel-de-leon-pokedex.herokuapp.com/"
+  }
+]
