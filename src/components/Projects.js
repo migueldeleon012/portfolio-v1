@@ -23,6 +23,7 @@ const Projects = () => {
                   href={project.github}
                   className="btn card__btn"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Github
                 </a>
@@ -30,6 +31,7 @@ const Projects = () => {
                   href={project.site}
                   className="btn card__btn"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Website
                 </a>
