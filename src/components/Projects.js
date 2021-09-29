@@ -16,7 +16,7 @@ const Projects = () => {
 
             </div>
             <a href="" className="btn card__github"></a>
-            <a href="" className="btn card__code"></a>
+            <a href="" className="btn card__site"></a>
           </div>
       })} */}
       </div>
