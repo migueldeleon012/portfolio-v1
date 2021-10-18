@@ -1,14 +1,10 @@
 const About = () => {
   return (
-    <section id="about" className="section">
+    <section id="about">
       <h2>About Me</h2>
       <div className="section-line"></div>
 
       <div className="section__container">
-        <div className="section__container__img">
-          <img src="" alt="" />
-        </div>
-
         <div className="section__container__desc">
           <p>
             Hi there! I’m Miguel de Leon, a full-stack Web Developer with a

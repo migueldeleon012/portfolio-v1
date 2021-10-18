@@ -2,6 +2,8 @@
   height: 70px;
   width: 100%;
   position: fixed;
+  top: 0;
+  z-index: 10000;
 
   .burger {
     width: 40px;
@@ -33,8 +35,17 @@
 
     li {
       opacity: 0;
+      visibility: hidden;
       text-align: center;
       transition: 300ms;
+      a {
+        text-transform: uppercase;
+        transition: 300ms;
+
+        &:hover {
+          color: $accent-color;
+        }
+      }
     }
   }
 
@@ -46,6 +57,39 @@
 
     li {
       opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__logo {
+    height: 100%;
+    @include flexCenter;
+
+    img {
+      height: 40px;
+    }
+  }
+}
+
+@media only screen and(min-width: 1024px) {
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+
+    .burger {
+      display: none;
+    }
+
+    ul {
+      position: static;
+      flex-direction: row;
+      width: 35%;
+      li {
+        opacity: 1;
+        visibility: visible;
+      }
     }
   }
 }

@@ -9,6 +9,9 @@ const Navbar = () => {
 
   return (
     <nav className="nav bg-black">
+      <div className="nav__logo">
+        <img src="img/logo.svg" alt="" />
+      </div>
       <div className="burger" onClick={onBurgerClickHandler}>
         <div className="burger__line"></div>
         <div className="burger__line"></div>

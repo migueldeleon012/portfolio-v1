@@ -1,8 +1,8 @@
 const Contacts = () => {
   return (
     <div id="contacts" className="section">
-      <div className="bg-dark text-white section__container">
-        <h2>Say hi!</h2>
+      <div className="section__container">
+        <h2 className="text-white">Say hi!</h2>
 
         <form className="form">
           <div className="form__input">
@@ -17,6 +17,8 @@ const Contacts = () => {
             <label htmlFor="message">Message:</label>
             <textarea id="message" />
           </div>
+
+          <button className="text-white">Submit</button>
         </form>
       </div>
     </div>

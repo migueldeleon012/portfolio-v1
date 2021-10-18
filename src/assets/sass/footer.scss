@@ -1,5 +1,55 @@
 .footer {
-  height: 10vh;
   background-color: $font-color;
   @include flexCenter;
+  flex-direction: column;
+
+  &__socials {
+    margin: 30px 0;
+    @include flexEvenly;
+    gap: 10px;
+
+    .social {
+      background-color: lighten($font-color, 30%);
+      border-radius: 3px;
+      aspect-ratio: 1/1;
+      width: 50px;
+      transition: 400ms;
+
+      @include flexCenter;
+      svg {
+        font-size: 1.3rem;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .facebook:hover {
+      background-color: #3b5998;
+    }
+
+    .instagram:hover {
+      background: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+      );
+    }
+
+    .linkedin:hover {
+      background-color: #0e76a8;
+    }
+
+    .github:hover {
+      background-color: #4078c0;
+    }
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
 }

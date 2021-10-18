@@ -1,0 +1,152 @@
+.header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 77, 128, 0.8),
+      rgba(0, 77, 128, 0.8)
+    ),
+    url('../img/header-bg.svg') center center no-repeat;
+
+  &__banner {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    animation: header-banner 2.7s ease-in-out forwards;
+  }
+
+  &__container {
+    width: 100%;
+    height: inherit;
+    @include flexCenter;
+    flex-direction: column;
+
+    #logo {
+      width: 80%;
+      height: auto;
+      //m
+      path:nth-child(2) {
+        stroke-dasharray: 1023.7;
+        stroke-dashoffset: 1023.7;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //i
+      path:nth-child(3) {
+        stroke-dasharray: 384;
+        stroke-dashoffset: 384;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //g
+      path:nth-child(4) {
+        stroke-dasharray: 863;
+        stroke-dashoffset: 863;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //u
+      path:nth-child(5) {
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //e
+      path:nth-child(6),
+      path:nth-child(9),
+      path:nth-child(11) {
+        stroke-dasharray: 627;
+        stroke-dashoffset: 627;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //l
+      path:nth-child(7) {
+        stroke-dasharray: 375;
+        stroke-dashoffset: 375;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //d
+      path:nth-child(8) {
+        stroke-dasharray: 700;
+        stroke-dashoffset: 700;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //L
+      path:nth-child(10) {
+        stroke-dasharray: 450;
+        stroke-dashoffset: 450;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //o
+      path:nth-child(12) {
+        stroke-dasharray: 530;
+        stroke-dashoffset: 530;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+      //n
+      path:nth-child(13) {
+        stroke-dasharray: 599;
+        stroke-dashoffset: 599;
+        animation: header-animation 2s ease-in-out forwards;
+      }
+
+      @keyframes header-animation {
+        80% {
+          stroke-dashoffset: 0;
+          fill: transparent;
+        }
+        100% {
+          stroke-dashoffset: 0;
+          fill: $bg-color;
+        }
+      }
+
+      @keyframes header-banner {
+        from {
+          opacity: 0;
+        }
+        80% {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    #logo {
+      width: 70%;
+    }
+
+    &__banner {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    #logo {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+
+    &__banner {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header {
+    #logo {
+      width: 700px;
+    }
+
+    &__banner {
+      font-size: 2.3rem;
+    }
+  }
+}

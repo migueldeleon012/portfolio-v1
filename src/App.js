@@ -13,9 +13,11 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Header />
-      <About />
+      <section className="section about-skills">
+        <About />
+        <Skills />
+      </section>
       <Resume />
-      <Skills />
       <Projects />
       <Contacts />
       <Footer />

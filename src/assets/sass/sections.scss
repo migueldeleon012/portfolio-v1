@@ -1,39 +1,99 @@
 .section {
-  padding: 20px;
-
   &-line {
-    width: 100px;
-    height: 3px;
+    width: 50px;
+    height: 4px;
     background-color: $accent-color;
     margin-inline: auto;
     margin-bottom: 50px;
+    border-radius: 30px;
   }
 
   &__container {
-    width: 90%;
+    width: 92%;
     margin-inline: auto;
 
     h3 {
       margin-bottom: 30px;
     }
 
-    &__img {
-      width: 120px;
-      height: 120px;
-      background: grey;
-      border-radius: 50%;
-      margin: 30px auto 50px auto;
-    }
-
     &__desc {
       p {
         text-align: center;
         margin-bottom: 40px;
+        font-size: 0.8rem;
       }
     }
 
     &__skills {
-      margin: 20px 0;
+      margin: 50px 0;
+
+      h4 {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+        font-weight: 400;
+      }
+
+      span {
+        background-color: darken($bg-color, 10%);
+        padding: 6px 10px;
+        display: inline-block;
+        margin: 3px 5px;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    &__container__desc {
+      width: 80%;
+      margin-inline: auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .about-skills {
+    display: flex;
+    justify-content: center;
+
+    section {
+      width: 45%;
+    }
+  }
+
+  .section {
+    &__container__desc {
+      width: 50%;
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    &__container__skills {
+      h4 {
+        font-size: 1.6rem;
+      }
+      span {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .section {
+    &__container {
+      margin-inline: auto;
+
+      &__desc {
+        width: 60ch;
+        p {
+          font-size: 1.1rem;
+          line-height: 1.5;
+        }
+      }
     }
   }
 }
