@@ -24,6 +24,7 @@ const Footer = () => {
             className="text-white"
             href="https://www.instagram.com/the_lion012/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
@@ -33,6 +34,7 @@ const Footer = () => {
             className="text-white"
             href="https://www.linkedin.com/in/miguel-de-leon-178b77202/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
@@ -42,6 +44,7 @@ const Footer = () => {
             className="text-white"
             href="https://github.com/migueldeleon012"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
