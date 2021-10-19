@@ -2,8 +2,8 @@ const Resume = () => {
   return (
     <section id="resume" className="resume">
       <div className="resume__wrapper">
-        <h2>Resume</h2>
-        <div className="resume__container">
+        <h2 data-aos="fade-up">Resume</h2>
+        <div className="resume__container" data-aos="fade-up">
           <a
             className="btn"
             href="img/Miguel de leon.pdf"

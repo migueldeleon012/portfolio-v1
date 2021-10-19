@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import Aos from 'aos';
+
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
@@ -7,13 +10,18 @@ import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import './assets/sass/app.scss';
+import 'aos/dist/aos.css';
 
 const App = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <section className="section about-skills">
+      <Navbar data-aos="fade-up" />
+      <Header data-aos="fade-up" />
+      <section className="section about-skills" data-aos="fade-up">
         <About />
         <Skills />
       </section>

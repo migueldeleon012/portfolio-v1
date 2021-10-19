@@ -2,9 +2,11 @@ const Contacts = () => {
   return (
     <div id="contacts" className="section">
       <div className="section__container">
-        <h2 className="text-white">Say hi!</h2>
+        <h2 className="text-white" data-aos="fade-up">
+          Say hi!
+        </h2>
 
-        <form className="form">
+        <form className="form" data-aos="fade-up">
           <div className="form__input">
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" />

@@ -2,7 +2,7 @@ import projectCollection from '../assets/projectCollection.json';
 
 const Projects = () => {
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section" data-aos="fade-up">
       <h2>Projects</h2>
       <div className="section-line"></div>
       <div className="section__container cards">
