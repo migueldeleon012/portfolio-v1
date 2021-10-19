@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -19,29 +20,52 @@ const Navbar = () => {
       </div>
       <ul className={isActive ? 'active' : ''}>
         <li>
-          <a className="text-white" href="#about">
+          <Link
+            className="text-white"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             About Me
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="text-white" href="#skills">
-            Skills
-          </a>
-        </li>
-        <li>
-          <a className="text-white" href="#resume">
+          <Link
+            className="text-white"
+            to="resume"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             Resume
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="text-white" href="#projects">
+          <Link
+            className="text-white"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             Projects
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="text-white" href="#contacts">
+          <Link
+            className="text-white"
+            to="contacts"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

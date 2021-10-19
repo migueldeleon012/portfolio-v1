@@ -1,11 +1,4 @@
 const Header = () => {
-  const logo = document.querySelectorAll('#logo path');
-  console.log(logo);
-
-  for (let i = 0; i < logo.length; i++) {
-    console.log(`letter ${i + 1} is ${logo[i].getTotalLength()}`);
-  }
-
   return (
     <header className="header">
       <div className="header__container text-white">

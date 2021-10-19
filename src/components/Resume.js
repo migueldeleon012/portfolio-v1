@@ -4,7 +4,12 @@ const Resume = () => {
       <div className="resume__wrapper">
         <h2>Resume</h2>
         <div className="resume__container">
-          <a className="btn" href="#contacts">
+          <a
+            className="btn"
+            href="img/Miguel de leon.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
             View my Resume
           </a>
         </div>

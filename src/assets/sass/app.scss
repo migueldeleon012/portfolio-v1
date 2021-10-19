@@ -45,6 +45,11 @@ p {
   line-height: 1.4;
 }
 
+a,
+button {
+  cursor: pointer !important;
+}
+
 .btn {
   padding: 5px 20px;
   transition: 300ms;

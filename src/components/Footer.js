@@ -12,6 +12,7 @@ const Footer = () => {
       <div className="footer__socials">
         <div className="social facebook">
           <a
+            rel="noreferrer"
             className="text-white"
             href="https://www.facebook.com/profile.php?id=100009912155567"
             target="_blank"

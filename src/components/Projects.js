@@ -6,9 +6,9 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="section-line"></div>
       <div className="section__container cards">
-        {projectCollection.map((project) => {
+        {projectCollection.map((project, index) => {
           return (
-            <div className="card">
+            <div className="card" key={index}>
               <div className="card__img">
                 <img src={project.img} alt={project.name} />
               </div>
