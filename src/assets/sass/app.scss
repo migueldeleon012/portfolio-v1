@@ -61,6 +61,14 @@ button {
   }
 }
 
+.success {
+  background-color: rgb(17, 184, 17);
+}
+
+.fail {
+  background-color: rgb(190, 35, 35);
+}
+
 @import './navbar';
 @import './header.scss';
 @import './sections';

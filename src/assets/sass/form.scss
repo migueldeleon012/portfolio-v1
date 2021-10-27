@@ -8,12 +8,22 @@
   padding-bottom: 40px;
 }
 
-.form {
+.form,
+.form-response {
   width: 100%;
-  margin-inline: auto;
+  border-radius: 5px;
+}
+
+.form-response {
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.form {
   background: $bg-color;
   padding: 30px 10px;
-  border-radius: 5px;
+  margin-inline: auto;
 
   &__input {
     display: flex;
@@ -51,8 +61,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .form {
+  .form,
+  .form-response {
     width: 80%;
+  }
+
+  .form {
     padding: 70px 30px;
 
     button {
@@ -62,9 +76,12 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .form {
+  .form,
+  .form-response {
     width: 60%;
+  }
 
+  .form {
     button {
       font-size: 1.1rem;
       padding: 15px;
@@ -78,10 +95,8 @@
 }
 
 @media only screen and (min-width: 1920px) {
-  .form {
+  .form,
+  .form-response {
     width: 980px;
-
-    button {
-    }
   }
 }
