@@ -18,13 +18,13 @@
     "name": "Pokedex",
     "description": "The pokedex is a project that I created to test my abilities in dealing with external APIs, I used PokeAPI, React JS, Styled components, and Sass for this project",
     "github": "https://github.com/migueldeleon012/pokedex",
-    "site": "miguel-de-leon-pokedex.netlify.app/"
+    "site": "https://miguel-de-leon-pokedex.netlify.app/"
   },
   {
     "img":"./img/todo.jpg",
     "name": "To do app",
     "description": "This todo app utilizes react & redux with the localstorage in order to save the data inside the browser, i also used Sass for styling this website",
     "github": "https://github.com/migueldeleon012/to-do-app",
-    "site": "https://https://miguel-de-leon-todo.netlify.app"
+    "site": "https://miguel-de-leon-todo.netlify.app"
   }
 ]
