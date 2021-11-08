@@ -6,7 +6,7 @@ const Resume = () => {
         <div className="resume__container" data-aos="fade-up">
           <a
             className="btn"
-            href="img/Miguel de leon.pdf"
+            href="./img/Miguel de leon.pdf"
             target="_blank"
             rel="noreferrer"
           >
