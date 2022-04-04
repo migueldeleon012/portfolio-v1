@@ -1,30 +1,37 @@
 [
   {
-    "img":"./img/polaworld.jpg",
+    "img": "./img/polaworld.jpg",
     "name": "Polaworld",
     "description": "Polaworld is a website for a photography company based in Italy. It was created to showcase my skills UI/UX design, and I used HTML, CSS, and Vanilla JS",
     "github": "https://github.com/migueldeleon012/polaworld",
     "site": "https://polaworld.netlify.app/"
   },
   {
-    "img":"./img/tictactoe.jpg",
+    "img": "./img/tictactoe.jpg",
     "name": "Neon Tac Toe",
     "description": "Neon Tac Toe is a simple tic tac toe game where I used HTML, CSS, and Vanilla JS to make it. This project focuses not only on Vanilla JS, but also my skills in CSS",
     "github": "https://github.com/migueldeleon012/tic-tac-toe",
     "site": "https://migueldeleon-tic-tac-toe.netlify.app/"
   },
   {
-    "img":"./img/pokedex.jpg",
+    "img": "./img/pokedex.jpg",
     "name": "Pokedex",
     "description": "The pokedex is a project that I created to test my abilities in dealing with external APIs, I used PokeAPI, React JS, Styled components, and Sass for this project",
     "github": "https://github.com/migueldeleon012/pokedex",
     "site": "https://miguel-de-leon-pokedex.netlify.app/"
   },
   {
-    "img":"./img/todo.jpg",
+    "img": "./img/todo.jpg",
     "name": "To do app",
     "description": "This todo app utilizes react & redux with the localstorage in order to save the data inside the browser, i also used Sass for styling this website",
     "github": "https://github.com/migueldeleon012/to-do-app",
     "site": "https://miguel-de-leon-todo.netlify.app"
+  },
+  {
+    "img": "./img/urlshortener.jpg",
+    "name": "Shortly",
+    "description": "Shortly is a URL shortener app with a very good and intuitive UI, the design was made by Front-end Mentor. I integrated the shrtcode URL shortening API to make the URL shortening functionality of the app",
+    "github": "https://github.com/migueldeleon012/url-shortener",
+    "site": "https://miguel-de-leon-url-shortener.netlify.app/"
   }
 ]
