@@ -10,9 +10,16 @@ const Navbar = () => {
 
   return (
     <nav className="nav bg-black">
-      <div className="nav__logo">
-        <img src="img/logo.svg" alt="" />
-      </div>
+      <Link
+        className="nav__logo"
+        to="header"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        <img src="img/logo.svg" alt="miguel de leon logo" />
+      </Link>
       <div className="burger" onClick={onBurgerClickHandler}>
         <div className="burger__line"></div>
         <div className="burger__line"></div>

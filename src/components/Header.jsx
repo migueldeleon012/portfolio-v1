@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header" id="header">
       <div className="header__container text-white">
         <svg
           id="logo"

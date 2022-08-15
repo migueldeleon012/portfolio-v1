@@ -24,7 +24,7 @@
     "img": "./img/todo.jpg",
     "name": "To do app",
     "description": "This todo app utilizes react & redux with the localstorage in order to save the data inside the browser, i also used Sass for styling this website",
-    "github": "https://github.com/migueldeleon012/to-do-app",
+    "github": "https://github.com/migueldeleon012/to-do-app-frontend",
     "site": "https://miguel-de-leon-todo.netlify.app"
   },
   {
