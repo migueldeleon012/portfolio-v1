@@ -8,8 +8,8 @@ import {
 
 const Footer = () => {
   return (
-    <div className="footer text-white">
-      <div className="footer__socials">
+    <footer className="footer text-white">
+      <main className="footer__socials">
         <div className="social facebook">
           <a
             rel="noreferrer"
@@ -50,9 +50,9 @@ const Footer = () => {
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
-      </div>
+      </main>
       <p>© Miguel de Leon</p>
-    </div>
+    </footer>
   );
 };
 

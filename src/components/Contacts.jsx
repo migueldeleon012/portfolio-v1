@@ -59,8 +59,8 @@ const Contacts = () => {
   };
 
   return (
-    <div id="contacts" className="section">
-      <div className="section__container">
+    <section id="contacts" className="section">
+      <main className="section__container">
         <h2 className="text-white" data-aos="fade-up">
           Say hi!
         </h2>
@@ -110,8 +110,8 @@ const Contacts = () => {
             {submitting ? 'Submitting...' : 'Submit'}
           </button>
         </form>
-      </div>
-    </div>
+      </main>
+    </section>
   );
 };
 

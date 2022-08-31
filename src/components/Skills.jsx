@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <section id="skills">
+    <aside id="skills">
       <h2>Skills</h2>
       <div className="section-line"></div>
       <div className="section__container skills">
@@ -25,7 +25,7 @@ const Skills = () => {
           <span>MySQL</span>
         </div>
       </div>
-    </section>
+    </aside>
   );
 };
 

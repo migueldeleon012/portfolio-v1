@@ -3,7 +3,7 @@ const Resume = () => {
     <section id="resume" className="resume">
       <div className="resume__wrapper">
         <h2 data-aos="fade-up">Resume</h2>
-        <div className="resume__container" data-aos="fade-up">
+        <main className="resume__container" data-aos="fade-up">
           <a
             className="btn"
             href="./img/Miguel de leon.pdf"
@@ -12,7 +12,7 @@ const Resume = () => {
           >
             View my Resume
           </a>
-        </div>
+        </main>
       </div>
     </section>
   );

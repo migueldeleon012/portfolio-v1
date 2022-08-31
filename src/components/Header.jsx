@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className="header" id="header">
-      <div className="header__container text-white">
+      <main className="header__container text-white">
         <svg
           id="logo"
           width="1494"
@@ -114,7 +114,7 @@ const Header = () => {
         </svg>
 
         <h2 className="header__banner">A creative web Developer</h2>
-      </div>
+      </main>
     </header>
   );
 };
