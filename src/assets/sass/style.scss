@@ -69,10 +69,10 @@ button {
   background-color: rgb(190, 35, 35);
 }
 
-@import './navbar';
-@import './header.scss';
-@import './sections';
-@import './resume';
-@import './footer';
-@import './card';
-@import './form';
+@import './sections/navbar';
+@import './sections/header';
+@import './sections/sections';
+@import './sections/resume';
+@import './sections/footer';
+@import './sections/card';
+@import './sections/form';
