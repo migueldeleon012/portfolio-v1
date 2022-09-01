@@ -1,4 +1,6 @@
 import projectCollection from '../assets/projectCollection.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
 const Projects = () => {
   const renderProjects = (project, index) => (
@@ -17,19 +19,25 @@ const Projects = () => {
         <div className="card__links">
           <a
             href={project.github}
-            className="btn card__btn"
+            className="card__btn"
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            <div className="icon">
+              <FontAwesomeIcon icon={faGithub} />
+            </div>
+            <span>Github</span>
           </a>
           <a
             href={project.site}
-            className="btn card__btn"
+            className="card__btn"
             target="_blank"
             rel="noreferrer"
           >
-            Website
+            <div className="icon">
+              <FontAwesomeIcon icon={faHtml5} />
+            </div>
+            <span>Website</span>
           </a>
         </div>
       </section>
