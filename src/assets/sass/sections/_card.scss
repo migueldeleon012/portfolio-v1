@@ -2,7 +2,7 @@
 
 .card {
   width: 100%;
-  border: 1px solid lighten($font-color, 80%);
+  border: 1px solid $darker-white;
   border-radius: 4px;
   margin: 30px auto;
   display: flex;
@@ -29,14 +29,50 @@
     margin-top: 20px;
 
     a {
-      color: $font-color;
+      color: $black;
     }
   }
 
   &__btn {
-    min-width: 100px;
+    min-width: 30%;
+    padding: 0;
     text-align: center;
-    border: 1px solid $font-color;
+    border: 1px solid $darker-white;
+    display: flex;
+    align-items: center;
+
+    .icon {
+      padding: 10px;
+      position: relative;
+      background-color: $darker-white;
+      transition: 300ms;
+
+      &::after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        transform: rotate(45deg) translateY(-50%);
+        background-color: $darker-white;
+        position: absolute;
+        top: 50%;
+        transition: 300ms;
+      }
+    }
+    span {
+      flex: 1;
+    }
+
+    &:hover {
+      .icon {
+        color: $white;
+        background-color: $accent-color;
+
+        &::after {
+          background-color: $accent-color;
+        }
+      }
+    }
   }
 }
 
