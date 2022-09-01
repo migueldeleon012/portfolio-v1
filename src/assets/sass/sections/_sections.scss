@@ -36,7 +36,7 @@
       }
 
       span {
-        background-color: darken($bg-color, 10%);
+        background-color: $darker-white;
         padding: 6px 10px;
         display: inline-block;
         margin: 3px 5px;
