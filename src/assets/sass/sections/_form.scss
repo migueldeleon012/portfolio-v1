@@ -1,10 +1,12 @@
+@use '../abstracts/index' as *;
+
 #contacts {
   background: linear-gradient(
       to right,
       rgba(0, 77, 128, 0.8),
       rgba(0, 77, 128, 0.8)
     ),
-    url('../../img/header-bg.svg') center center no-repeat;
+    url('../img/header-bg.svg') center center no-repeat;
   padding-bottom: 40px;
 }
 

@@ -1,3 +1,5 @@
+@use '../abstracts/index' as *;
+
 .footer {
   background-color: $font-color;
   @include flexCenter;

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+$font-color: #0c0c0c;
+$bg-color: rgb(255, 255, 255);
+$accent-color: #308cf5;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-black {
+  background-color: $font-color;
+}
+
+.text-white {
+  color: $bg-color;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 0 5px 0;
+  padding: 40px 0 10px 0;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a,
+button {
+  cursor: pointer !important;
+}
+
+.btn {
+  padding: 5px 20px;
+  transition: 300ms;
+
+  &:hover {
+    background-color: $accent-color;
+    border: none !important;
+    color: $bg-color;
+  }
+}
+
+.success {
+  background-color: rgb(17, 184, 17);
+}
+
+.fail {
+  background-color: rgb(190, 35, 35);
+}

@@ -1,7 +1,9 @@
+@use '../abstracts/index' as *;
+
 .resume {
   width: 100%;
   height: 40vh;
-  background: url('../../img/resume-img.jpg') center center;
+  background: url('../img/resume-img.jpg') center center;
   color: white;
 
   &__wrapper {
