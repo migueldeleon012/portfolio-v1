@@ -30,8 +30,15 @@
   {
     "img": "./img/urlshortener.jpg",
     "name": "Shortly",
-    "description": "Shortly is a URL shortener app with a very good and intuitive UI, the design was made by Front-end Mentor. I integrated the shrtcode URL shortening API to make the URL shortening functionality of the app",
+    "description": "Shortly is a URL shortener app with a intuitive UI designed by Front-end Mentor. I integrated the shrtcode URL shortening API to make the functionality of the app",
     "github": "https://github.com/migueldeleon012/url-shortener",
     "site": "https://miguel-de-leon-url-shortener.netlify.app/"
+  },
+  {
+    "img": "./img/spacewebsite.jpg",
+    "name": "Space",
+    "description": "This website is a simple informational website designed by Front-end Mentor. I used HTML SCSS and Javascript for this project.",
+    "github": "https://github.com/migueldeleon012/space-website",
+    "site": "https://miguel-de-leon-space-website.netlify.app"
   }
 ]
